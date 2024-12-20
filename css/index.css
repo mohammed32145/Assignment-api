@@ -1,0 +1,388 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo-type .site-title {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    font-size: 12px;
+
+}
+
+.logo-type .site-title .site-description {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo-type {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-description {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    padding: 50px 0;
+    background-color: #1e202b !important;
+    color: white;
+}
+
+
+.navbar-toggler-icon {
+    background-color: aliceblue;
+
+}
+
+.navbar-nav .nav-item {
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+
+.navbar-nav .active,
+.navbar-nav .nav-item:hover a,
+.navbar-nav .nav-item:hover {
+    border-color: #009ad8 !important;
+    color: #009ad8 !important;
+}
+
+element.style {
+    background-image: url(../images/banner.png);
+}
+
+.hero {
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+
+.find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+
+form input,
+form textarea,
+form select {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+button,
+input {
+    line-height: normal;
+}
+
+.find {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    border: none;
+    background: #009ad8;
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: white;
+}
+
+.find-location {
+    position: relative;
+}
+
+.forecast-container {
+    width: 100%;
+    background: #323544;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+.forecast-container .forecast .forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.one {
+    background-color: #2d303d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.forecast-container .forecast .forecast-content {
+    padding: 50px 20px 10px;
+    text-align: center;
+}
+
+.forecast-container .forecast.today .forecast-content {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.forecast-container .forecast.today .location {
+    font-size: 18px;
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+
+.forecast-container .forecast.today .degree .num {
+    font-size: 90px;
+    font-size: 6.4285714286rem;
+    margin-right: 30px;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.forecast-container .forecast .forecast-content .forecast-icon {
+    margin-bottom: 20px;
+}
+
+.forecast-container .forecast .forecast-icon {
+    height: 50px;
+}
+
+.custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
+
+.forecast-container .forecast.today span {
+    margin-right: 20px;
+}
+
+#current {
+    background-color: #323544;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 50px 20px 10px;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+
+}
+
+.degree {
+    align-items: center;
+    display: flex;
+    font-size: 90px;
+    color: white;
+}
+
+.forecast-container .forecast.today .degree .num {
+    font-size: 90px;
+    font-size: 6.4285714286rem;
+    margin-right: 30px;
+}
+
+.forecast-content span {
+    margin: 5px;
+}
+
+.custom {
+    font-size: 20px;
+}
+
+.num2 {
+    background-color: #262936;
+    text-align: center;
+}
+
+.tod {
+    background-color: #222530;
+}
+
+.forecast-header {
+    padding: 5px;
+}
+
+.degree-tow {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.num2 .forecast-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.num2 .forecast {
+    height: 100%;
+}
+
+.num3 .forecast-header {
+    background-color: #2d303d;
+}
+
+.tod2 {
+    background-color: #2d303d;
+}
+
+.num3 {
+    background-color: #323544;
+}
+
+.num1 {
+    background-color: #323544;
+}
+
+.find-location {
+    margin-bottom: 25px;
+}
+
+.hero {
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+
+.deg-one {
+    display: block;
+}
+
+p {
+    margin-top: 0;
+}
+
+.site-footer {
+    background: #262936;
+    padding: 50px 0;
+}
+
+.site-footer .subscribe-form input[type="text"] {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+form input,
+form textarea,
+form select {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+.site-footer .subscribe-form input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+
+.button,
+form input[type="submit"],
+form input[type="button"],
+form button,
+form input[type="reset"] {
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.subscribe-form {
+    position: relative;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #1e202b;
+    border-radius: 50%;
+    color: #009ad3;
+    text-decoration: none;
+    font-size: 24px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #0099d7;
+    color: #fff;
+}
